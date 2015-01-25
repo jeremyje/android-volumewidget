@@ -1,0 +1,14 @@
+Pump up the volume with the Volume Widget.
+
+Adjust any volume type from your home screen quickly.
+
+Features:
+* Quick up/down volume adjust buttons.
+* 3 different widget sizes. 1x1 2x1 4x1
+* Controls all volume types. To change, tap the volume’s name.
+
+*NOTE* This is a widget only. There’s no launcher icon. To open: Long Press Home Screen > Widgets > Volume "Size"
+
+http://goo.gl/Gep0w
+
+Keywords: volume widget adjust sound audio loud soft noise

@@ -1,0 +1,14 @@
+Battery Test - Asset Studio (Yellow)
+Make Motivator - Black
+My Location - Dark Blue
+No Lock Screen - Orange/Yellow
+Smart Settings - Green 77aa00/669900
+Volume Widget - Blue
+
+1. Create Magic Wand Selection from safe frame inner.
+2. Take Primary color and create secondary with Value 20 points lower
+3. Create rectangle with rounded corners with baseline of 4px/48px (mdpi)
+4. Project Monochromatic Noise Intensity= 15 Color Saturation= 0 Coverage= 100
+5. Create a top light layer. White blotch sized at the icon width. apply where circle touches inner tips of rounded corners.
+   Gaussian Blur Strength= 200
+   Gaussian Blur Strength= 200

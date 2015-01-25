@@ -1,0 +1,16 @@
+syntax: glob
+*.class
+*.suo
+*.apk
+
+syntax: regexp
+^bin\\*
+^jars\\*
+^jar-sources\\*
+^javadoc\\*
+^obj\\*
+^obf\\*
+^gen\\*
+^log\\*
+^.svn\\*
+^.metadata\\*

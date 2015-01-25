@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<style name="LightListView" parent="LightListViewBase">
+		<item name="android:paddingLeft">?android:attr/listPreferredItemPaddingLeft</item>
+		<item name="android:paddingRight">?android:attr/listPreferredItemPaddingRight</item>
+	</style>
+
+</resources>

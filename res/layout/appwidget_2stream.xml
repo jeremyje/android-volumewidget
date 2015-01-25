@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/AppWidgetBody"
+    android:orientation="horizontal">
+    <LinearLayout style="@style/VolumeControlPanel">
+		<LinearLayout style="@style/VolumeToggleButtonPanel">
+			<ImageButton android:id="@+id/btnNudgeDown0"
+				android:background="@drawable/appwidget_button_topleft"
+				style="@style/WidgetButtonNudgeDown"
+				android:contentDescription="@string/lower_volume" />
+			
+			<ImageView style="@style/WidgetColumnDivider" android:contentDescription="@string/divider" />
+			
+			<ImageButton android:id="@+id/btnNudgeUp0"
+				style="@style/WidgetButtonNudgeUp"
+				android:contentDescription="@string/raise_volume" />
+		</LinearLayout>
+		
+		<ImageView style="@style/WidgetColumnHorizontalDivider" android:contentDescription="@string/divider" />
+		
+		<Button
+			android:id="@+id/btnCaption0"
+			android:background="@drawable/appwidget_button_bottomleft"
+			style="@style/VolumeToggleCaption" />
+	</LinearLayout>
+
+	<ImageView style="@style/WidgetColumnThickDivider" android:contentDescription="@string/divider" />
+		
+	<LinearLayout style="@style/VolumeControlPanel">
+		<LinearLayout style="@style/VolumeToggleButtonPanel">
+			<ImageButton android:id="@+id/btnNudgeDown1"
+				style="@style/WidgetButtonNudgeDown"
+				android:contentDescription="@string/lower_volume" />
+			
+			<ImageView style="@style/WidgetColumnDivider" android:contentDescription="@string/divider" />
+			
+			<ImageButton android:id="@+id/btnNudgeUp1"
+				android:background="@drawable/appwidget_button_topright"
+				style="@style/WidgetButtonNudgeUp"
+				android:contentDescription="@string/raise_volume" />
+		</LinearLayout>
+		
+		<ImageView style="@style/WidgetColumnHorizontalDivider" android:contentDescription="@string/divider" />
+		
+		<Button
+			android:id="@+id/btnCaption1"
+			android:background="@drawable/appwidget_button_bottomright"
+			style="@style/VolumeToggleCaption" />
+	</LinearLayout>
+</LinearLayout>

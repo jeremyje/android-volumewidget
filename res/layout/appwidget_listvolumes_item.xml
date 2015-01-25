@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    
+	<TextView
+	    android:id="@+id/stream_name"
+	    android:layout_width="0dp"
+	    android:layout_weight="1"
+	    android:layout_height="match_parent"
+	    style="@style/ListWidgetItemTitle" />
+	
+	<LinearLayout android:layout_height="match_parent" android:layout_width="wrap_content"
+	    android:orientation="horizontal">
+		<ImageButton android:id="@+id/btnNudgeDown"
+			style="@style/ListWidgetButtonNudgeDown"
+			android:contentDescription="@string/lower_volume" />
+		
+		<ImageButton android:id="@+id/btnNudgeUp"
+			style="@style/ListWidgetButtonNudgeUp"
+			android:contentDescription="@string/raise_volume" />
+	</LinearLayout>
+</LinearLayout>

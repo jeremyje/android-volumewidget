@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Volume Widget</string>
+    <string name="select_volume">Select Volume</string>
+    <string name="widget_name_1x1">Volume 1x1</string>
+    <string name="widget_name_2x1">Volume 2x1</string>
+    <string name="widget_name_3x1">Volume 3x1</string>
+    <string name="widget_name_list">Volume List</string>
+    <string name="alarm">Alarm</string>
+    <string name="notification">Notification</string>
+    <string name="system">System</string>
+    <string name="voice">Voice</string>
+    <string name="ringer">Ringer</string>
+    <string name="music">Music</string>
+    <string name="touchtone">Touchtone</string>
+    
+    <string name="nothing_to_view">Nothing to view.</string>
+    <string name="volumes">Volumes</string>
+    <string name="raise_volume">Raise Volume</string>
+    <string name="lower_volume">Lower Volume</string>
+    <string name="divider">|</string>
+    
+</resources>

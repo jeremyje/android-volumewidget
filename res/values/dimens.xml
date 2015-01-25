@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="divider_thickness">1dp</dimen>
+	<dimen name="widedivider_thickness">2dp</dimen>
+	<dimen name="listitem_size">52dp</dimen>
+	<dimen name="listitem_padding">8dp</dimen>
+	<dimen name="listitemappwidget_padding">4dp</dimen>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="6dip"
+    android:layout_marginBottom="6dip"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="8dip"
+        android:paddingRight="8dip"
+        android:orientation="horizontal"
+        android:background="@drawable/header_bg_widget_holo">
+        
+        <ImageView
+            android:id="@+id/widget_logo"
+            android:layout_width="32dip"
+            android:layout_height="32dip"
+            android:layout_marginRight="8dip"
+            android:src="@drawable/ic_launcher"
+            android:contentDescription="@string/app_name" />
+        
+        <TextView
+                android:id="@+id/widget_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/volumes"
+                android:textColor="@color/widget_title_color"
+                android:gravity="center_vertical"
+                />
+    </LinearLayout>
+    <ListView
+        android:id="@+id/volume_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        style="@style/LightListViewAppWidget"
+        android:scrollbarStyle="outsideOverlay" />
+    <TextView
+        android:id="@+id/empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:layout_weight="1"
+        android:layout_gravity="fill"
+        android:gravity="center"
+        android:text="@string/nothing_to_view"
+        android:textSize="16sp"
+        android:visibility="gone"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_div_top_btm_widget_holo"
+        android:contentDescription="@string/divider" />
+</LinearLayout>
